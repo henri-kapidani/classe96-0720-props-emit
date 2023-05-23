@@ -1,0 +1,54 @@
+<mxfile host="app.diagrams.net" modified="2023-05-23T11:09:36.709Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="2y08GV34WgPqrcjNw6Yj" version="21.3.2" type="device">
+  <diagram name="Page-1" id="JWyjP6tqasvA7aKXKqcq">
+    <mxGraphModel dx="1909" dy="998" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2sJ3rxzyXUAk17f2oKMS-1" value="App.vue" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="269" y="120" width="420" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="2sJ3rxzyXUAk17f2oKMS-2" value="ComponentA" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="329" y="245" width="300" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="2sJ3rxzyXUAk17f2oKMS-3" value="ComponentB" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="329" y="425" width="300" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="2sJ3rxzyXUAk17f2oKMS-10" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0A0A;" edge="1" parent="1" source="2sJ3rxzyXUAk17f2oKMS-5" target="2sJ3rxzyXUAk17f2oKMS-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="155" y="300" />
+              <mxPoint x="155" y="485" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2sJ3rxzyXUAk17f2oKMS-5" value="input" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="355" y="290" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2sJ3rxzyXUAk17f2oKMS-7" value="button" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="545" y="290" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2sJ3rxzyXUAk17f2oKMS-8" value="div che visualizza il testo scritto nell&#39;input" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="359" y="455" width="246" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2sJ3rxzyXUAk17f2oKMS-11" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;curved=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="562" y="265" as="sourcePoint" />
+            <mxPoint x="495" y="145" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2sJ3rxzyXUAk17f2oKMS-12" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;curved=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="445" y="145" as="sourcePoint" />
+            <mxPoint x="385" y="475" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2sJ3rxzyXUAk17f2oKMS-13" value="" style="shape=cross;whiteSpace=wrap;html=1;rotation=-45;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="115" y="355" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2sJ3rxzyXUAk17f2oKMS-16" value="In Vue si possono scambiare dati solo componenti genitori con i loro figli diretti" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="435" width="150" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
