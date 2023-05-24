@@ -1,19 +1,22 @@
 <script>
 export default {
-	data() {
-		return {
-			inputText: '',
-		};
-	},
+	// data() {
+	// 	return {
+	// 		inputText: '',
+	// 	};
+	// },
 };
 </script>
 
 <template>
 	<div>
-		<input type="text" v-model="inputText" />
-		<button @click="$emit('visualizeInputText', inputText)">
+		<input
+			type="text"
+			@keyup="$emit('visualizeInputText', $event.target.value)"
+		/>
+		<!-- <button @click="$emit('visualizeInputText', $event.target)">
 			Visualizza testo input nello spazio sotto
-		</button>
+		</button> -->
 	</div>
 </template>
 

@@ -14,6 +14,7 @@ export default {
 	},
 	methods: {
 		changeTextInput(valueFromEmit) {
+			console.log(valueFromEmit);
 			this.textInInput = valueFromEmit;
 		},
 	},
@@ -26,3 +27,7 @@ export default {
 </template>
 
 <style></style>
+
+<!-- eleForm.addEventListener('submit', function(event) {
+	event.preventDefault();
+}) -->
